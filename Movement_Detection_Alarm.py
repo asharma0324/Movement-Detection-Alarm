@@ -59,6 +59,7 @@ while True:
     if key_pressed == ord('q'):
         alarm_mode = False
         break
+
 cap.release()
 cv.destroyAllWindows()
 
